@@ -56,7 +56,7 @@
     align-items: center;
 }
 
-@media (max-width: 767px){
+@media (max-width: 768px){
     body{
         display: flex;
         flex-direction: column;
@@ -110,3 +110,14 @@
 }
 
 
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+    
+    .centro, .direita, .esquerda {
+        flex: none;
+        width: 100%; 
+    }
+
+}
